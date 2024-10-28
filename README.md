@@ -2,6 +2,12 @@ VBA-challenge
 
 Hi! This README file contains the VBScript code that I used to summarize the stock data statistics.
 
+I ended with this script as it was the most optimized way that I found to summarize the statistical changes in stock data for each datasheet from the assigned Excel workbook.
+
+I needed the script to both show the quarterly change in stock value as well as the percent change and the stock volume traded each quarter.
+
+In addition I needed the script to also show a statistic for 'Greatest % Increase', 'Greatest % Decrease', and 'Greatest Total Volume' for each quarters statistics.
+
     Sub SummarizeStockDataAllSheets()
         Dim ws As Worksheet
         Dim lastRow As Long
